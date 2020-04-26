@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript</title>
+    <style>
+        .box-container {
+            display: flex;
+        }
+
+        .box {
+            padding: 5px;
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            border: 10px solid greenyellow;
+            transition: 3s cubic-bezier(0, 1.6, 1, -0.66);
+        }
+
+        .box:hover {
+            background-color: yellow;
+            transform: scale(1.7);
+        }
+
+        p {
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            color: blueviolet
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Transition</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, a cum nisi neque quod amet sapiente dicta aut ipsa
+        expedita nesciunt labore error rerum quo earum consectetur assumenda voluptatibus doloremque.
+    </p>
+    <div class="box-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
